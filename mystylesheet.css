@@ -1,4 +1,15 @@
 .mainhesding{
     text-align:center;
 }
-
+#cv {
+    display: inline-block;
+}
+#interests {
+    display: inline-block;
+}
+#shop {
+    display: inline-block;
+}
+#cloud {
+    display: inline-block;
+}
