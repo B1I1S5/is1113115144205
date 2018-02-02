@@ -29,12 +29,24 @@
             
             <br/>
             <br/>
+            <br/>
             
             <label for="subtotal">
-                Total
+                Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
             </label>
             
+            <br/>
+            <br/>
+            <br/>
+            
+            <label for="total">
+                Total
+                <input type="text" id="total" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            <br/>
             <br/>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
@@ -42,11 +54,11 @@
         </form>
         
         <br/>
+        <br/>
+        <br/>
         
         <button onClick="calSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
     </body>
-    
-    
 </html>
