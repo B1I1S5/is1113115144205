@@ -9,9 +9,9 @@
     </head>
     
     <body>
-        <h4>Select a Product</h4
+        <h4>Select a Product</h4>
         
-        <br/>
+        <hr/>
         
         <form method="POST" action="Ebus2.php">
             
@@ -21,15 +21,14 @@
             </label>
             
             <br/>
+            <br/>
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
             </label>
             
-            <br/>
-            <br/>
-            <br/>
+            <hr/>
             
             <label for="subtotal">
                 Sub Total
@@ -38,25 +37,21 @@
             
             <br/>
             <br/>
-            <br/>
             
             <label for="total">
                 Total
                 <input type="text" id="total" value="0.00" readonly/>
             </label>
             
-            <br/>
-            <br/>
-            <br/>
-            
+            <hr/>
+           
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
+        <hr/>
         <br/>
-        <br/>
-        <br/>
-        
+    
         <button onClick="calSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
