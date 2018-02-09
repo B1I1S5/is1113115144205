@@ -52,7 +52,7 @@
         <hr/>
         <br/>
     
-        <button onClick="calSub()">Calculate Cost</button>
+        <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
     </body>
