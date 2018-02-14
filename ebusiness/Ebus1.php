@@ -15,8 +15,8 @@
         
         <form method="POST" action="Ebus2.php">
             
-            <label for="saleforce">
-                <input type="radio" id="saleforce" name="product" checked onClick="disablebtnProceed()"/>
+            <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SaleForce @ $100
             </label>
             
