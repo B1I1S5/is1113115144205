@@ -1,5 +1,7 @@
-.mainhesding{
-    text-align:center;
+body {
+    background-image: url(https://image.freepik.com/free-vector/abstract-blue-background_1048-1511.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 /*Put two divs on same line - Reference "https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other"*/
