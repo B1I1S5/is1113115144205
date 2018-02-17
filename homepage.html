@@ -7,6 +7,12 @@
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
         
         <style>
+            body {
+                background-image: url(https://i.ytimg.com/vi/JT8yHgNPhBU/maxresdefault.jpg);
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+        
            /*Animate text - Reference "https://www.bing.com/videos/search?q=animate+text+in+html&&view=detail&mid=F54BD56F9090F3B891F6F54BD56F9090F3B891F6&&FORM=VDRVRV"*/
             p{
                color:#80bfff;
@@ -21,51 +27,53 @@
     </head>
 
     <body>
-        <!--Make header more standout-->
-        <div style="background-color:#336699;color:white;text-align:center;">
-        <h1 class="mainheading;">115144205 - IS1113 Project</h1>
-        </div>
-
+       <div class="navbar">
+        <h1 style="color:white;" align="center">115144205 - IS1113 Project</h1>
+        <div class="dropdown">
+          <button class="dropbtn">Other</button>
+          <div class="dropdown-content">
+            <a href="https://is1113115144205.herokuapp.com/">Heroku</a>
+            <a href="https://github.com/B1I1S5/is1113115144205/graphs/commit-activity">GitHub</a>
+          </div>
+        </div> 
+        
+        <div class="dropdown">
+          <button class="dropbtn">eBusiness</button>
+          <div class="dropdown-content">
+            <a href="ebusiness/Ebus1.php">Ebus1</a>
+            <a href="ebusiness/Ebus2.php">Ebus2</a>
+            <a href="ebusiness/Ebus3.php">Ebus3</a>
+          </div>
+        </div> 
+        
+        <div class="dropdown">
+          <button class="dropbtn">Personal Interests</button>
+          <div class="dropdown-content">
+            <a href="interests/sports.html">Sports</a>
+            <a href="interests/travel.html">Travel</a>
+            <a href="interests/cloud services.html">Cloud Services</a>
+          </div>
+        </div> 
+        
+        <div class="dropdown">
+          <button class="dropbtn">Curriculum Vitac</button>
+          <div class="dropdown-content">
+            <a href="cv/cv_page1.html">Personal Detail</a>
+            <a href="cv/cv_page1.htm2">Education</a>
+            <a href="cv/cv_page1.htm3">Work Experience</a>
+          </div>
+        </div> 
+        
+        <a href="homepage.html">Home</a>
+      </div>
        
         <p style="font-family:Impact; font-size:7;" align="center"><font size="7">Welcome to my personal website!</font></p>
-        
-        
-        <div align="center">
-        <div id="cv" style="background-color:#79a6d2; width: 22rem; border: 15px solid #c6d9ec;" >
-          <a href="cv/cv_page1.html"><img alt="CV image" src="https://4.bp.blogspot.com/-JwTgg_bIZ3M/WD1abi1j1KI/AAAAAAAAAjc/jZhrUSKM4vg0SnvYNn2nWi6cpqngBnoSACLcB/s1600/advanced-CV-writing-technique-2.png" width="352" height="352" align="middle" ></a>
-            <h3 align="center"><strong>Curriculum Vitac</strong></h3>
-        </div>
-        &nbsp;&nbsp;
-        <div id="interests" style="background-color:#ff9933; width: 20rem; border: 15px solid #ffcc99;" >
-          <a href="interests/sports.html"><img alt="Travel image" src="https://s-media-cache-ak0.pinimg.com/originals/6c/4b/91/6c4b91321e0cfb6c62eeac505bcab764.jpg" width="320" height="320" align="middle" ></a>
-            <h3 align="center"><strong>Personal Interests</strong></h3>
-        </div>
-        </div>
-        
-        <br/>
-        
-        <div align="center">
-        <div id="shop" style="background-color:#339966; width: 20rem; border: 15px solid #b3e6cc;" >
-          <a href="ebusiness/Ebus1.php"><img alt="Shop image" src="https://www.ersa.edu.au/wp-content/uploads/2014/01/infographic-computer-icons-green-large_191084564.png" width="320" height="320" align="middle" ></a>
-            <h3 align="center"><strong>eBusiness</strong></h3>
-        </div>
-        &nbsp;&nbsp;
-        <div id="heroku" style="background-color:#a366ff; width: 22rem; border: 15px solid #d1b3ff;" >
-          <a href="https://is1113115144205.herokuapp.com/"><img alt="Cloud Vendor/Organisation image" src="https://cdn.slant.co/cc6abaa3-acab-4ce7-a0fd-a0ef563ef08c/-/format/jpeg/-/progressive/yes/-/preview/480x480/" width="352" height="352" align="middle" ></a>
-            <h3 align="center"><strong>Heroku</strong></h3>
-        </div>
-         &nbsp;&nbsp;
-        <div id="github" style="background-color:#808080; width: 21rem; border: 15px solid #cccccc;" >
-          <a href="https://github.com/B1I1S5/is1113115144205/graphs/commit-activity"><img alt="Cloud Vendor/Organisation image" src="https://drupal.org/files/project-images/github_commits_logo_0.png" width="336" height="336" align="middle" ></a>
-            <h3 align="center"><strong>GitHub</strong></h3>
-        </div>
-        </div>
-        
-        <!--A hint-->
-        <h3 align="center">Please click the image.</h3>
 
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        
         <!--Make footer more standout-->
-        <div style="background-color:#336699; color:white;clear:both;text-align:center;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
+        <div style="background-color:#333; color:white;clear:both;text-align:center;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
 
 
     </body>
