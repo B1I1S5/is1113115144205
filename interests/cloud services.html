@@ -4,7 +4,7 @@
     <head>
         <title>115144205</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
-        
+        <link rel="stylesheet" href="cloud_services.css" type="text/css">
         <style>
             body {
                 background-image: url(https://i.ytimg.com/vi/JT8yHgNPhBU/maxresdefault.jpg);
@@ -46,8 +46,8 @@
           <button class="dropbtn">Curriculum Vitac</button>
           <div class="dropdown-content">
             <a href="../cv/cv_page1.html">Personal Detail</a>
-            <a href="../cv/cv_page1.htm2">Education</a>
-            <a href="../cv/cv_page1.htm3">Work Experience</a>
+            <a href="../cv/cv_page2.html">Education</a>
+            <a href="../cv/cv_page3.html">Work Experience</a>
           </div>
         </div> 
         
@@ -56,12 +56,60 @@
          <h1 id ="cloud" style="color:white;" >Cloud Services</h1>
         <a href="../homepage.html">Home</a>
       </div>
+      
+      
+
+      <div class="tab">
+        <button class="tablinks" onclick="openCloudServices(event, 'Salesforce')" id="defaultOpen">Salesforce</button>
+        <button class="tablinks" onclick="openCloudServices(event, 'Cloud9')">Cloud9</button>
+        <button class="tablinks" onclick="openCloudServices(event, 'Amazon')">Amazon</button>
+        <button class="tablinks" onclick="openCloudServices(event, 'Gmail')">Gmail</button>
+      </div>
+      
+      <div id="Salesforce" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Cloud9" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p> 
+      </div>
+      
+      <div id="Amazon" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      
+      <div id="Gmail" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      
+      <script>
+      function openCloudServices(evt, CloudServicesName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(CloudServicesName).style.display = "block";
+          evt.currentTarget.className += " active";
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
 
         <br/><br/><br/><br/><br/><br/><br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/>
         
         <!--Make footer more standout-->
-        <div style="background-color:#333; color:white;clear:both;text-align:center;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
+        <div style="background-color:#333; color:white;clear:both;text-align:center; overflow: hidden;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
 
 
     </body>

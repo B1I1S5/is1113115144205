@@ -68,6 +68,7 @@ body {
    display: block; 
 }
 
+/*Put two divs on same line - Reference "https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other"*/
 #sports {
     display: inline-block;
 }
@@ -87,21 +88,3 @@ body {
     display: inline-block;
 }
 
-
-
-/*Put two divs on same line - Reference "https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other"*/
-#cv {
-    display: inline-block;
-}
-#interests {
-    display: inline-block;
-}
-#shop {
-    display: inline-block;
-}
-#github{
-    display: inline-block;
-}
-#heroku{
-    display: inline-block;
-}
