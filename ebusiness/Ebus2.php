@@ -7,6 +7,8 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,22 +16,32 @@ session_start();
     </head>
     
     <body>
-        <h4>Please enter your payment details</h4>
+        <p style=" font-family: Georgia; font-size: 30px;"><strong>Please enter your payment details</strong></p>
         
         
         <form action="Ebus3.php" method="POST" >
             
-            <label for="user_pin">PIN</label>
-            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+            <label for="name" style=" font-family: Georgia; font-size: 25px;">Name :</label>&nbsp;&nbsp;
+            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="name" placeholder="Name">
+
+            <br/><br/>
+
+            <label for="email" style=" font-family: Georgia; font-size: 25px;">Email :</label>&nbsp;&nbsp;
+            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" placeholder="Email">
+              
+            <br/><br/> 
+                        
+            <label for="user_pin" style=" font-family: Georgia; font-size: 25px;">PIN :</label>&nbsp;&nbsp;
+            <input style=" font-family: Georgia; font-size: 22px;" type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+            
+            <br/><br/>
             
             <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button> 
-            
+
         </form>
         
-        <br/>
-    
-        <button onClick="validateDetails()">Validate</button>
-        
+        <button id="validate" onClick="validateDetails()">Validate</button>
+
     </div>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>

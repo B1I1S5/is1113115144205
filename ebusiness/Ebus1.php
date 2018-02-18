@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -9,83 +10,76 @@
     </head>
     
     <body>
-        <h4>Select a Product</h4>
-        
-        <hr/>
+        <p style=" font-family: Georgia; font-size: 30px;"><strong>Please select a product:</strong></p>
         
         <form method="POST" action="Ebus2.php">
             
-            <label for="salesforce">
+            <label for="salesforce" style=" font-family: Georgia; font-size: 25px;">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SaleForce @ $100
+                SaleForce &nbsp;&nbsp;@ $100
             </label>
-            
+
             <br/>
-            <br/>
             
-            <label for="cloud9">
+            <label for="cloud9" style=" font-family: Georgia; font-size: 25px;">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-                Cloud9 @ $200
+                Cloud9 &nbsp;&nbsp;@ $200
             </label>
-            
+
             <br/>
-            <br/>
             
-            <label for="aws">
+            <label for="aws" style=" font-family: Georgia; font-size: 25px;">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                Amazon Web Services @ $300
+                Amazon Web Services &nbsp;&nbsp;@ $300
             </label>
-            
+
             <br/>
-            <br/>
             
-            <label for="gmail">
+            <label for="gmail" style=" font-family: Georgia; font-size: 25px;">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-                Gmail @ $400
-            </label>
-            
-        <hr/>
-            
-            <label for="subtotal">
-                Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                Gmail &nbsp;&nbsp;@ $400
             </label>
             
             <br/>
-            <br/>
+            <hr/>
             
-            <label for="discount">
-                Discount @ 5%
-                <input type="text" id="discount" value="0.00" readonly/>
+            <label for="subtotal" style=" font-family: Georgia; font-size: 22px;">
+                Sub Total :&nbsp;&nbsp;
+                <input style=" font-family: Georgia; font-size: 20px;" type="text" id="subtotal" value="0.00" readonly/>
+            </label>
+
+            <br/><br/>
+            
+            <label for="discount" style=" font-family: Georgia; font-size: 22px;">
+                Discount @ 5% :&nbsp;&nbsp;
+                <input style=" font-family: Georgia; font-size: 20px;" type="text" id="discount" value="0.00" readonly/>
+            </label>
+
+            <br/><br/>
+            
+            <label for="vat" style=" font-family: Georgia; font-size: 22px;">
+                Vat @ 10% :&nbsp;&nbsp;
+                <input style=" font-family: Georgia; font-size: 20px;" type="text" id="vat" value="0.00" readonly/>
+            </label>
+
+            <br/><br/>
+            
+            <label for="total" style=" font-family: Georgia; font-size: 22px;">
+                Total :&nbsp;&nbsp;
+                <input style=" font-family: Georgia; font-size: 20px;" type="text" id="total" name="total" value="0.00" readonly/>
             </label>
             
-            <br/>
-            <br/>
-            
-            <label for="vat">
-                Vat @ 10%
-                <input type="text" id="vat" value="0.00" readonly/>
-            </label>
-            
-            <br/>
-            <br/>
-            
-            <label for="total">
-                Total
-                <input type="text" id="total" name="total" value="0.00" readonly/>
-            </label>
-            
-        <hr/>
+    
+        <br/><hr/><br/>
            
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+        <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
-        <hr/>
         <br/>
     
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <button id="calculate" onClick="calcSub()">Calculate Cost</button>
+        <a id="clear" role="button" href="Ebus1.php">Clear Choice</a>
         
     </body>
 </html>

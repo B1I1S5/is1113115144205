@@ -1,12 +1,12 @@
 /* Style the tab */
 .tab {
     width: 220px;
-    position: fixed;
+    position:fixed;
     z-index: 1;
     background-color: #333;
     overflow-x: hidden;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .tab a:hover {
@@ -41,5 +41,4 @@
     margin-left: 220px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 30px;
-
 }
