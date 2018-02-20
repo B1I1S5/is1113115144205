@@ -1,29 +1,34 @@
+/* Adding image in background */
 body {
     background-image: url(https://narrativescience.com/Portals/0/EasyDNNnews/1770/whatisartificialintelligencethumbnail.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }
 
+/* Style the navbar */
 .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Style the contant in the navbar */
 .navbar a {
     float: left;
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px;/*The padding shorthand property sets all the padding properties in one declaration.*/
     text-decoration: none;
 }
 
+/* Style the dropdown button in the navbar */
 .dropdown {
     float: right;
-    overflow: hidden;
+    overflow: hidden;/*The overflow property specifies what should happen if content overflows an element's box.*/
 }
 
+/* Style the dropdown button in the navbar */
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -35,35 +40,36 @@ body {
     margin: 0;
 }
 
+/*When mouse moved to button in the navagation bar, the color of button will be changed to red*/
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
+/* Style the contant in the dropdown button in the navbar */
 .dropdown-content {
-    display: none;/*不会显示Dropdown里的内容*/
-    position: absolute;/*Dropdown不会变大*/
-    background-color: white;/*Dropdown的内容的背景*/
-    min-width: 160px;/*Dropdown的内容的长短*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*Dropdown的内容影子*/
-    z-index: 1;/*Dropdown的内容显示在文字之后*/
+    display: none;/*The contant in dropdown will not show before user click */
+    position: absolute;/*The backgound of dropdown will not become bigger*/
+    background-color: white;/*Background color of contant on dropdown*/
+    min-width: 160px;/*The width of the dropdown*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*Shadow around the dropdown contant*/
 }
 
-/*用于设计Dropdown的内容里的字*/
+/*Style the characters in the contant in dropdown*/
 .dropdown-content a {
-    float: none; /*不会平行*/
+    float: none; /*Keep the characters in the same line*/
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;/*字的位置不变*/
+    display: block;/*Keep the characters in the same place which is mean that they will not appear at same line*/
     text-align: left;
 }
 
-/*dropdown的背景不变*/
+/*When mouse moved to the contant in dropdown, the color of each contant in dropdown will be changed to red*/
 .dropdown-content a:hover {
-    background-color:red;/*鼠标点的时候是红色*/
+    background-color:red;
 }
 
-/*显示dropdown的内容*/
+/*Display the contant of dropdown*/
 .dropdown:hover .dropdown-content {
    display: block; 
 }
@@ -85,6 +91,12 @@ body {
     display: inline-block;
 }
 #cloud {
+    display: inline-block;
+}
+#black {
+    display: inline-block;
+}
+#white {
     display: inline-block;
 }
 

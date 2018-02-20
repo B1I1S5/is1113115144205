@@ -2,10 +2,16 @@
 
 <html>
     <head>
+      
         <title>115144205</title>
+        
+        <!--Embeded CSS-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
         <link rel="stylesheet" href="cloud_services.css" type="text/css">
+        
+        <!--Use Internal CSS-->
         <style>
+            /*Adding Background*/
             body {
                 background-image: url(http://www.litosantaelena.com/fondo.jpg);
                 background-repeat:no-repeat;
@@ -14,8 +20,14 @@
         </style>
     </head>
 
+
     <body>
+      
+       <!--Create navagation bar in the top of page-->
+       <!--Adding dropdown button in navagation bar which link to different webpage when user click the dropdown contant-->
        <div class="navbar">
+         
+        <!--Link to Heroku and GitHub-->
         <div class="dropdown">
           <button class="dropbtn">Other</button>
           <div class="dropdown-content">
@@ -24,6 +36,7 @@
           </div>
         </div> 
         
+        <!--Link to ebusiness-->
         <div class="dropdown">
           <button class="dropbtn">eBusiness</button>
           <div class="dropdown-content">
@@ -33,6 +46,7 @@
           </div>
         </div> 
         
+        <!--Link to interests-->
         <div class="dropdown">
           <button class="dropbtn">Personal Interests</button>
           <div class="dropdown-content">
@@ -42,6 +56,7 @@
           </div>
         </div> 
         
+        <!--Link to my cv-->
         <div class="dropdown">
           <button class="dropbtn">Curriculum Vitac</button>
           <div class="dropdown-content">
@@ -51,45 +66,55 @@
           </div>
         </div> 
         
+         <!--Make heading between Curriculum Vitac dropdown button and Home dropdown button -->
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <h1 id ="cloud" style="color:white;" >Cloud Services</h1>
+         
+        <!--Link to my home page-->
         <a href="../homepage.html">Home</a>
       </div>
       
       
-
+      <!--Insert image to each button-->
       <div class="tab">
         <button class="tablinks" onclick="openCloudServices(event, 'Salesforce')" id="defaultOpen"><img src="https://www.calltrackingmetrics.com/wp-content/uploads/2017/03/salesforce-w.png" alt="Safesforce image" width="70" height="50" align="middle"></button>
-        <button class="tablinks" onclick="openCloudServices(event, 'Cloud9')"><img src="https://cdn.worldvectorlogo.com/logos/cloud9.svg" alt="Cloud9 image" width="70" height="50" align="middle"></button>
+        <button class="tablinks" onclick="openCloudServices(event, 'Cloud9')"><img src="http://www.stickpng.com/assets/images/5847eb34cef1014c0b5e484b.png" alt="Cloud9 image" width="60" height="50" align="middle"></button>
         <button class="tablinks" onclick="openCloudServices(event, 'Amazon')"><img src="https://icon-icons.com/icons2/91/PNG/512/amazon_16438.png" alt="Amazon image" width="50" height="50" align="middle"></button>
         <button class="tablinks" onclick="openCloudServices(event, 'Gmail')"><img src="https://png.icons8.com/color/1600/gmail.png" alt="Gmail image" width="50" height="50" align="middle"></button>
       </div>
       
+      <!--Show the information of Safeforce-->
       <div id="Salesforce" class="tabcontent" align="center">
         <h3>Safesforce</h3>
         <h6><a href="https://www.salesforce.com/eu/">(Official Website)</a></h6>
       </div>
       
+      <!--Show the information of Cloud9-->
       <div id="Cloud9" class="tabcontent">
         <h3>Cloud9</h3>
         <p><a  href="...">Official website</a></p> 
       </div>
       
+      <!--Show the information of Amazon-->
       <div id="Amazon" class="tabcontent">
         <h3>Amazon</h3>
         <p><a href="...">Official website</a></p>
       </div>
       
+      <!--Show the information of Gmail-->
       <div id="Gmail" class="tabcontent">
         <h3>Gmail</h3>
         <p><a href="...">Official website</a></p>
       </div>
       
+      <!--When user click the different the contant will be changed-->
       <script>
       function openCloudServices(evt, CloudServicesName) {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
+          //for is loops through a block of code a number of times
+          //The length property sets or returns the number of elements in an array.用于计算数组长度
           for (i = 0; i < tabcontent.length; i++) {
               tabcontent[i].style.display = "none";
           }
@@ -107,9 +132,11 @@
 
         <br/><br/><br/><br/><br/><br/><br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
         
         <!--Make footer more standout-->
-        <div style="background-color:#333; color:white;clear:both;text-align:center; overflow: hidden;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
+        <div style="background-color:#333; color:white; clear:both; text-align:center; bottom:10px; position:fixed; width: 99%;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
 
 
     </body>

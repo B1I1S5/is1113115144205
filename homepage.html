@@ -2,11 +2,16 @@
 <!DOCTYPE HTML>
 
 <html>
+  
     <head>
         <title>115144205</title>
+        
+        <!--Embeded CSS-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css">
         
+        <!--Use Internal CSS-->
         <style>
+            /*Adding Background*/
             body {
                 background-image: url(https://i.ytimg.com/vi/JT8yHgNPhBU/maxresdefault.jpg);
                 background-repeat:no-repeat;
@@ -15,7 +20,7 @@
         
            /*Animate text - Reference "https://www.bing.com/videos/search?q=animate+text+in+html&&view=detail&mid=F54BD56F9090F3B891F6F54BD56F9090F3B891F6&&FORM=VDRVRV"*/
             p{
-               color:#80bfff;
+               color:#ff4d4d;
                animation:animate 0.5s infinite linear;  
             }
             @Keyframes animate{
@@ -26,9 +31,14 @@
         </style>
     </head>
 
+
     <body>
+       <!--Create navagation bar in the top of page-->
+       <!--Adding dropdown button in navagation bar which link to different webpage when user click the dropdown contant-->
        <div class="navbar">
         <h1 style="color:white;" align="center">115144205 - IS1113 Project</h1>
+        
+        <!--Link to Heroku and GitHub-->
         <div class="dropdown">
           <button class="dropbtn">Other</button>
           <div class="dropdown-content">
@@ -37,6 +47,7 @@
           </div>
         </div> 
         
+        <!--Link to ebusiness-->
         <div class="dropdown">
           <button class="dropbtn">eBusiness</button>
           <div class="dropdown-content">
@@ -46,6 +57,7 @@
           </div>
         </div> 
         
+        <!--Link to interests-->
         <div class="dropdown">
           <button class="dropbtn">Personal Interests</button>
           <div class="dropdown-content">
@@ -55,6 +67,7 @@
           </div>
         </div> 
         
+        <!--Link to my cv-->
         <div class="dropdown">
           <button class="dropbtn">Curriculum Vitac</button>
           <div class="dropdown-content">
@@ -64,19 +77,23 @@
           </div>
         </div> 
         
+        <!--Link to my home page-->
         <a href="homepage.html">Home</a>
       </div>
-       
-        <p style="font-family:Impact; font-size:7;" align="center"><font size="7">Welcome to my personal website!</font></p>
-
-        <br/><br/><br/><br/><br/><br/><br/><br/>
-        <br/><br/><br/><br/><br/><br/><br/><br/>
+      
+      <br/><br/><br/><br/><br><br/>
         
-        <!--Make footer more standout-->
-        <div style="background-color:#333; color:white;clear:both;text-align:center;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
+      <!--Use animated text and show my personal information-->  
+      <div align="center" style=" width:50%;">
+      <h2 style="font-family:Georgia; " align="center">
+      <p style="font-family:Impact; " align="center"><font size="7">Welcome to my personal website!</font></p><br/>
+      <font size="6">IS1113 Project<br/><br/>Name: Li Zhang<br/>Student Number: 115144205<br/></font></h2>
+      </div>
 
+        
+      <!--Make footer more standout-->
+      <div style="background-color:#333; color:white; clear:both; text-align:center; bottom:10px; position:fixed; width:99%;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
 
     </body>
     
-
 </html>

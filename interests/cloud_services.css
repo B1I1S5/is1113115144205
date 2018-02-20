@@ -1,3 +1,4 @@
+
 /* Style the tab */
 .tab {
     width: 220px;
@@ -9,6 +10,7 @@
     padding-bottom: 20px;
 }
 
+/*When mouse moved to button in side navagation bar, the color will be changed*/
 .tab a:hover {
     color: #f1f1f1;
 }
@@ -16,7 +18,7 @@
 /* Style the buttons inside the tab */
 .tab button {
     display: block;
-    background-color: inherit;
+    background-color: inherit;/*The inherit keyword specifies that a property should inherit its value from its parent element.*/
     color: white;
     padding: 32px 16px;
     width: 100%;
@@ -32,6 +34,7 @@
 }
 
 /* Create an active/current "tab button" class */
+/* Add backgroun color */
 .tab button.active {
     background-color: #ccc;
 }

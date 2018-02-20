@@ -1,13 +1,19 @@
+/*Adding background color*/
 #section1{
     background-color:#5cd6d6;
 }
+
+/*Adding background color*/
 #section2{
     background-color:#80aaff;
 }
+
+/*Adding background color*/
 #section3{
     background-color:#c65353;
 }
 
+/*The content in section will be put in center and color is white*/
 .section{
     text-align: center;
     color: white;

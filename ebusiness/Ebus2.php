@@ -15,19 +15,26 @@ session_start();
         
     </head>
     
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <body>
+        <div align="center">
+        <div align="center" style="background-color:  #ccffe6; width:35%;">
+            
+        <br/>
+        
         <p style=" font-family: Georgia; font-size: 30px;"><strong>Please enter your payment details</strong></p>
         
         
         <form action="Ebus3.php" method="POST" >
             
             <label for="name" style=" font-family: Georgia; font-size: 25px;">Name :</label>&nbsp;&nbsp;
-            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="name" placeholder="Name">
+            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="name" name="name" placeholder="Name">
 
             <br/><br/>
 
             <label for="email" style=" font-family: Georgia; font-size: 25px;">Email :</label>&nbsp;&nbsp;
-            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" placeholder="Email">
+            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" name="email" placeholder="Email">
               
             <br/><br/> 
                         
@@ -41,6 +48,10 @@ session_start();
         </form>
         
         <button id="validate" onClick="validateDetails()">Validate</button>
+        
+        <br/>
+        <br/>
+        <br/>
 
     </div>
         
@@ -50,7 +61,9 @@ session_start();
         //Set session variables
         $_SESSION["total"]=$_POST["total"];
     ?>
-        
+    
+    </div>  
+    </div>
         
     </body>
 </html>
