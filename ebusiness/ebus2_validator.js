@@ -1,14 +1,16 @@
 /* global $ */
 
+/*Use function to validate the details*/
 function validateDetails(){
     
+    /*Declare the variables*/
     var name, email, pin;
     
     name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     pin = document.getElementById("user_pin").value;
     
-    
+    /*Use if statements to make sure that user entered the details*/
     if(name==""){
         alert("Please enter your name.")
     }

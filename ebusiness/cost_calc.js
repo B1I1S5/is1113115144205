@@ -1,7 +1,9 @@
 /* global $ */
 
+/*Use function to calculate the subtotal*/
 function calcSub(){
     
+    /*Declare the variables*/
     var argSubTotal;
     
     if(document.getElementById("salesforce").checked){
@@ -20,8 +22,10 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
 
+/*Use function to calculate the subtotal, discount, vat and total price*/
 function calcDisVatTotal(parmSubTotal){
-
+    
+   /*Declare the variables*/
    var subTotal, Dis = 0.05, discountAmt, Vat = 0.1, vatAmt, totalPrice;
    
    subTotal = parmSubTotal;
@@ -32,6 +36,7 @@ function calcDisVatTotal(parmSubTotal){
    display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
+/*When user clike the button then subtotal, discount, vat and total price will show*/
 function display(parm1,parm2,parm3,parm4){
     
     document.getElementById("subtotal").value = parm1;

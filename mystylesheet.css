@@ -7,71 +7,71 @@ body {
 
 /* Style the navbar */
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden ;
+    background-color: #333 ;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 /* Style the contant in the navbar */
 .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;/*The padding shorthand property sets all the padding properties in one declaration.*/
-    text-decoration: none;
+    float: left ;
+    font-size: 16px ;
+    color: white ;
+    text-align: center ;
+    padding: 14px 16px ;/*The padding shorthand property sets all the padding properties in one declaration.*/
+    text-decoration: none ;
 }
 
 /* Style the dropdown button in the navbar */
 .dropdown {
-    float: right;
-    overflow: hidden;/*The overflow property specifies what should happen if content overflows an element's box.*/
+    float: right ;
+    overflow: hidden ;/*The overflow property specifies what should happen if content overflows an element's box.*/
 }
 
 /* Style the dropdown button in the navbar */
 .dropdown .dropbtn {
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    font-size: 16px ;    
+    border: none ;
+    outline: none ;
+    color: white ;
+    padding: 14px 16px ;
+    background-color: inherit ;
+    font-family: inherit ;
+    margin: 0 ;
 }
 
 /*When mouse moved to button in the navagation bar, the color of button will be changed to red*/
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: red ;
 }
 
 /* Style the contant in the dropdown button in the navbar */
 .dropdown-content {
-    display: none;/*The contant in dropdown will not show before user click */
-    position: absolute;/*The backgound of dropdown will not become bigger*/
-    background-color: white;/*Background color of contant on dropdown*/
-    min-width: 160px;/*The width of the dropdown*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*Shadow around the dropdown contant*/
+    display: none ;/*The contant in dropdown will not show before user click */
+    position: absolute ;/*The backgound of dropdown will not become bigger*/
+    background-color: white ;/*Background color of contant on dropdown*/
+    min-width: 160px ;/*The width of the dropdown*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;/*Shadow around the dropdown contant*/
 }
 
 /*Style the characters in the contant in dropdown*/
 .dropdown-content a {
-    float: none; /*Keep the characters in the same line*/
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;/*Keep the characters in the same place which is mean that they will not appear at same line*/
-    text-align: left;
+    float: none ; /*Keep the characters in the same line*/
+    color: black ;
+    padding: 12px 16px ;
+    text-decoration: none ;
+    display: block ;/*Keep the characters in the same place which is mean that they will not appear at same line*/
+    text-align: left ;
 }
 
 /*When mouse moved to the contant in dropdown, the color of each contant in dropdown will be changed to red*/
 .dropdown-content a:hover {
-    background-color:red;
+    background-color:red ;
 }
 
 /*Display the contant of dropdown*/
 .dropdown:hover .dropdown-content {
-   display: block; 
+   display: block ; 
 }
 
 /*Put two divs on same line - Reference "https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other"*/

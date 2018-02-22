@@ -7,6 +7,8 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
+        
+        <!--Embeded CSS-->
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
         
@@ -18,35 +20,44 @@ session_start();
     <br/><br/><br/><br/><br/><br/><br/><br/>
     
     <body>
+        <!--Make the green box center-->
         <div align="center">
+            
+        <!--Make the text center in green box-->    
         <div align="center" style="background-color:  #ccffe6; width:35%;">
             
         <br/>
         
+        <!--Styling the text-->
         <p style=" font-family: Georgia; font-size: 30px;"><strong>Please enter your payment details</strong></p>
         
-        
+        <!--Create a form-->
         <form action="Ebus3.php" method="POST" >
             
+            <!--Create a lable and a text box-->
             <label for="name" style=" font-family: Georgia; font-size: 25px;">Name :</label>&nbsp;&nbsp;
             <input style=" font-family: Georgia; font-size: 22px;" type="text" id="name" name="name" placeholder="Name">
 
             <br/><br/>
-
+            
+            <!--Create a lable and a text box-->
             <label for="email" style=" font-family: Georgia; font-size: 25px;">Email :</label>&nbsp;&nbsp;
             <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" name="email" placeholder="Email">
               
             <br/><br/> 
-                        
+            
+            <!--Create a lable and a text box-->         
             <label for="user_pin" style=" font-family: Georgia; font-size: 25px;">PIN :</label>&nbsp;&nbsp;
             <input style=" font-family: Georgia; font-size: 22px;" type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
             
             <br/><br/>
             
+            <!--When click the button then Ebus3.php show-->
             <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button> 
 
         </form>
         
+        <!--Validate the details that make sure the user entered their details-->
         <button id="validate" onClick="validateDetails()">Validate</button>
         
         <br/>
@@ -54,7 +65,7 @@ session_start();
         <br/>
 
     </div>
-        
+        <!--Use java script-->
         <script type="text/javascript" src="ebus2_validator.js"></script>
 
      <?php
