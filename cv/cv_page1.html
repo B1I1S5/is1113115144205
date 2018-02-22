@@ -3,146 +3,49 @@
       
         <title>Personal</title>
         
+        <div class="ignore-css">
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
+        <div>
+          
         <!--Embeded CSS-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
-        <style>
-          /* Adding image in background */
-            body {
-                background-image: url(https://narrativescience.com/Portals/0/EasyDNNnews/1770/whatisartificialintelligencethumbnail.jpg);
-                background-repeat:no-repeat;
-                background-size:cover;
-            }
-            
-            /* Style the navbar */
-            .navbar {
-                overflow: hidden ;
-                background-color: #333 ;
-                font-family: Arial, Helvetica, sans-serif ;
-            }
-            
-            /* Style the contant in the navbar */
-            .navbar a {
-                float: left ;
-                font-size: 16px ;
-                color: white ;
-                text-align: center ;
-                padding: 14px 16px ;/*The padding shorthand property sets all the padding properties in one declaration.*/
-                text-decoration: none ;
-            }
-            
-            /* Style the dropdown button in the navbar */
-            .dropdown {
-                float: right ;
-                overflow: hidden ;/*The overflow property specifies what should happen if content overflows an element's box.*/
-            }
-            
-            /* Style the dropdown button in the navbar */
-            .dropdown .dropbtn {
-                font-size: 16px ;    
-                border: none ;
-                outline: none ;
-                color: white ;
-                padding: 14px 16px ;
-                background-color: inherit ;
-                font-family: inherit ;
-                margin: 0 ;
-            }
-            
-            /*When mouse moved to button in the navagation bar, the color of button will be changed to red*/
-            .navbar a:hover, .dropdown:hover .dropbtn {
-                background-color: red ;
-            }
-            
-            /* Style the contant in the dropdown button in the navbar */
-            .dropdown-content {
-                display: none ;/*The contant in dropdown will not show before user click */
-                position: absolute ;/*The backgound of dropdown will not become bigger*/
-                background-color: white ;/*Background color of contant on dropdown*/
-                min-width: 160px ;/*The width of the dropdown*/
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;/*Shadow around the dropdown contant*/
-            }
-            
-            /*Style the characters in the contant in dropdown*/
-            .dropdown-content a {
-                float: none ; /*Keep the characters in the same line*/
-                color: black ;
-                padding: 12px 16px ;
-                text-decoration: none ;
-                display: block ;/*Keep the characters in the same place which is mean that they will not appear at same line*/
-                text-align: left ;
-            }
-            
-            /*When mouse moved to the contant in dropdown, the color of each contant in dropdown will be changed to red*/
-            .dropdown-content a:hover {
-                background-color:red ;
-            }
-            
-            /*Display the contant of dropdown*/
-            .dropdown:hover .dropdown-content {
-               display: block ; 
-            }
-        </style>
-
     </head>
     
     <body>
         <!--Create navagation bar in the top of page-->
         <!--Adding dropdown button in navagation bar which link to different webpage when user click the dropdown contant-->
         <div class="navbar">
-          
-        <!--Link to Heroku and GitHub-->  
-        <div class="dropdown">
-          <button class="dropbtn">Other</button>
-          <div class="dropdown-content">
-            <a href="https://is1113115144205.herokuapp.com/">Heroku</a>
-            <a href="https://github.com/B1I1S5/is1113115144205/graphs/commit-activity">GitHub</a>
-          </div>
-        </div> 
-        
-        <!--Link to ebusiness-->
-        <div class="dropdown">
-          <button class="dropbtn">eBusiness</button>
-          <div class="dropdown-content">
-            <a href="../ebusiness/Ebus1.php">Ebus1</a>
-            <a href="../ebusiness/Ebus2.php">Ebus2</a>
-            <a href="../ebusiness/Ebus3.php">Ebus3</a>
-          </div>
-        </div> 
-        
-        <!--Link to interests-->
-        <div class="dropdown">
-          <button class="dropbtn">Personal Interests</button>
-          <div class="dropdown-content">
-            <a href="../interests/sports.html">Sports</a>
-            <a href="../interests/travel.html">Travel</a>
-            <a href="../interests/cloud services.html">Cloud Services</a>
-          </div>
-        </div> 
-        
-        <!--Link to my cv-->
-        <div class="dropdown">
-          <button class="dropbtn">Curriculum Vitac</button>
-          <div class="dropdown-content">
-            <a href="cv_page1.html">Personal Detail</a>
-            <a href="cv_page2.html">Education</a>
-            <a href="cv_page3.html">Work Experience</a>
-          </div>
-        </div> 
-        
-         <!--Make heading between Curriculum Vitac dropdown button and Home dropdown button -->
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <h1 id ="personal" style="color:white;" >Personal Details</h1>
-         
+     
         <!--Link to my home page-->
         <a href="../homepage.html">Home</a>
+        
+        <!--Make heading between Curriculum Vitac dropdown button and Home dropdown button -->
+          &nbsp;&nbsp;&nbsp;
+          <p align="center" id ="personal" style="color:white;font-size:25;" >Personal Details</p>
+          &nbsp;&nbsp;&nbsp;
+
+        <!--Link to my personal page-->
+        <a href="cv_page1.html"><img src="https://cdn2.iconfinder.com/data/icons/social-media-8/512/reload.png" width="30" height="30" align="middle"></a>
+        <a href="cv_page2.html">Education</a>
+        <a href="cv_page3.html">Work Experience</a>
+
+        <!--Link to my personal intersts page-->
+        <a href="../interests/sports.html">Sports</a>
+        <a href="../interests/travel.html">Travel</a>
+        <a href="../interests/cloud services.html">Cloud Services</a>
+      
+        <!--Link to my Ebusiness-->
+        <a href="../ebusiness/Ebus1.php">Ebus1</a>
+        
+        <!--Link to my heroku and GitHub-->
+        <a href="https://is1113115144205.herokuapp.com/">Heroku</a>
+        <a href="https://github.com/B1I1S5/is1113115144205/graphs/commit-activity">GitHub</a>
+       
       </div>
         
         <br/>
@@ -155,6 +58,8 @@
         <p align="center" style="font-size:25;"><strong><strong>Address:</strong> ********** ****</strong></p>
         <p align="center" style="font-size:25;"><strong><strong>Phone:</strong> **********</strong></p>
         <p align="center" style="font-size:25;"><strong><strong>Email:</strong> 111111111@gmail.com</strong></p>
+        
+        <br/><br/><br/>
         
         <!--Make footer more standout-->
         <div style="background-color:#333; color:white; clear:both; text-align:center; bottom:10px; position:fixed; width:99%;">Li Zhang -  <img src="https://www.jjay.cuny.edu/sites/default/files/contentgroups/dean_of_students/email-icon.png" alt="CV image" width="25" height="25" align="middle">111111111@gmail.com</div>
