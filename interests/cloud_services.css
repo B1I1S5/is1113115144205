@@ -41,7 +41,26 @@
 
 /* Style the tab content */
 .tabcontent {
-    margin-left: 220px; /* Same as the width of the sidenav */
+    margin-left: 250px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 30px;
+}
+
+#Salesforce {
+    display: inline-block;
+}
+#Cloud9 {
+    display: inline-block;
+}
+#Amazon {
+    display: inline-block;
+}
+#Gmail {
+    display: inline-block;
+}
+#official{
+    display: inline-block;
+}
+#wiki {
+    display: inline-block;
 }
