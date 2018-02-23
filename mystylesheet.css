@@ -94,4 +94,21 @@ body {
 #cloud {
     display: inline-block;
 }
+#company {
+    display: inline-block;
+}
+
+#shopping {
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(155,149,149); 
+    color:rgb(28,24,59); 
+    border: 2px solid rgb(28,24,59);
+    border-radius: 12px;
+}
 
