@@ -27,13 +27,17 @@ function validateDetails(){
     
     if(pin==""){
         alert("Please enter your PIN.")
+        disablebtnPurchase()
     }
     else if(String(pin).length < 4){
         alert("Please make sure your PIN is accurate")
+        disablebtnPurchase()
     }
     else{
         enablebtnPurchase();
     }
+    
+    
     
 }
 
