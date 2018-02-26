@@ -37,6 +37,7 @@ function validateDetails(){
     
 }
 
+/*Activate button disabled button*/
 function enablebtnPurchase(){
     $("#btnPurchase").prop("disabled",false)
 }

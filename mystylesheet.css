@@ -94,10 +94,14 @@ body {
 #cloud {
     display: inline-block;
 }
-#company {
+#companyr {
+    display: inline-block;
+}
+#companyl {
     display: inline-block;
 }
 
+/*Styling start shopping button*/
 #shopping {
     padding: 15px 20px;
     text-align: center;

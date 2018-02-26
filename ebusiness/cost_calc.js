@@ -47,6 +47,7 @@ function display(parm1,parm2,parm3,parm4){
     enablebtnProceed();
 }    
 
+/*Activate button disabled button*/
 function enablebtnProceed(){
     $("#btnProceed").prop("disabled",false)
 }
