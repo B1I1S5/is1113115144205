@@ -12,26 +12,26 @@ function validateDetails(){
     
     /*Use if statements to make sure that user entered the details*/
     if(name==""){
-        alert("Please enter your name.")
-    }
-    else{
-        enablebtnPurchase();
-    }
-    
-    if(email==""){
-        alert("Please enter your email.")
-    }
-    else{
-        enablebtnPurchase();
+        disablebtnPurchase();
+        alert("Please enter your name.");
+        
     }
     
-    if(pin==""){
-        alert("Please enter your PIN.")
-        disablebtnPurchase()
+    else if(email==""){
+        disablebtnPurchase();
+        alert("Please enter your email.");
+        
+    }
+    
+    else if(pin==""){
+        disablebtnPurchase();
+        alert("Please enter your PIN.");
+        
     }
     else if(String(pin).length < 4){
-        alert("Please make sure your PIN is accurate")
-        disablebtnPurchase()
+        disablebtnPurchase();
+        alert("Please make sure your PIN is accurate");
+        
     }
     else{
         enablebtnPurchase();
@@ -43,10 +43,10 @@ function validateDetails(){
 
 /*Activate button disabled button*/
 function enablebtnPurchase(){
-    $("#btnPurchase").prop("disabled",false)
+    $("#btnPurchase").prop("disabled",false);
 }
 
 function disablebtnPurchase(){
-    $("#btnPurchase").prop("disabled",true)
+    $("#btnPurchase").prop("disabled",true);
 }
         
