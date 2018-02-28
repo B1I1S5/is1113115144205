@@ -16,8 +16,8 @@
         <br>
         <br>
         <!--Make the green box center-->
-        <div style="text-align:center;">
-        
+        <div>
+
         <!--Make the text center in green box-->
         <div style="background-color:  #ccffe6;  width:35%; text-align:center;">    
     
