@@ -16,10 +16,10 @@
         <br>
         <br>
         <!--Make the green box center-->
-        <div align="center">
+        <div style="text-align:center;">
         
         <!--Make the text center in green box-->
-        <div align="center" style="background-color:  #ccffe6; width:35%;">    
+        <div style="background-color:  #ccffe6;  width:35%; text-align:center;">    
     
         <br/>
         

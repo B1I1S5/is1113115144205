@@ -16,15 +16,15 @@ session_start();
         <br/><br/><br/><br/><br/>
         
         <!--Make the green box center-->
-        <div align="center">
+        <div style="text-align:center;">
             
         <!--Make the text center in green box-->    
-        <div align="center" style="background-color:#ccffe6; width:30%;">
+        <div align="center" style="background-color:#ccffe6; width:30%;text-align:center;">
         
         <br/>
         
         <!--Styling the text and adding icon-->
-        <p style=" font-family: Georgia; font-size: 30px;"><strong><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/26707-200.png" width="50" height="50" align="middle">RECEIPT</strong></p>
+        <p style=" font-family: Georgia; font-size: 30px;"><strong><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/26707-200.png" width="50" height="50" alt="receipt image">RECEIPT</strong></p>
         
         <!--Styling the text-->
         <p style=" font-family: Georgia; font-size: 20px;">

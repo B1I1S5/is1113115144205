@@ -21,15 +21,15 @@ session_start();
     
     <body>
         <!--Make the green box center-->
-        <div align="center">
+        <div style="text-align:center;">
             
         <!--Make the text center in green box-->    
-        <div align="center" style="background-color:  #ccffe6; width:35%;">
+        <div align="center" style="background-color:  #ccffe6; width:35%; text-align:center;">
             
         <br/>
         
         <!--Styling the text-->
-        <p style=" font-family: Georgia; font-size: 30px;"><strong>Please enter your payment details</strong></p>
+        <p style=" font-family: Georgia; font-size: 30px;"><strong>Please enter your payment details:</strong></p>
         
         <!--Create a form-->
         <form action="Ebus3.php" method="POST" >
@@ -74,7 +74,6 @@ session_start();
     ?>
     
     </div>  
-    </div>
         
     </body>
 </html>

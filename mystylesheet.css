@@ -129,3 +129,7 @@ body {
     border: 2px solid rgb(28,24,59);
     border-radius: 12px;
 }
+
+#center{
+    text-align:center;
+}
