@@ -13,13 +13,13 @@ session_start();
     </head>
     
     <body>
-        <br/><br/><br/><br/><br/>
+        <br/><br/>
         
         <!--Make the green box center-->
-        <div style="text-align:center;">
+        <div style="margin-left:500px;margin-right:500px;">
             
         <!--Make the text center in green box-->    
-        <div align="center" style="background-color:#ccffe6; width:30%;text-align:center;">
+        <div style="background-color:#ccffe6; width:100%;text-align:center;">
         
         <br/>
         
@@ -41,7 +41,7 @@ session_start();
         ?>
         </p>
         
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
         
         </div>
         </div>

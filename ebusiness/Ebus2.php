@@ -17,14 +17,14 @@ session_start();
         
     </head>
     
-    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/>
     
     <body>
-        <!--Make the green box center-->
-        <div style="text-align:center;">
+         <!--Make the text center in green box-->    
+        <div style="margin-left:450px;margin-right:450px;">
             
         <!--Make the text center in green box-->    
-        <div align="center" style="background-color:  #ccffe6; width:35%; text-align:center;">
+        <div align="center" style="background-color:  #ccffe6; width:100%; text-align:center;">
             
         <br/>
         

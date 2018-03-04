@@ -9,17 +9,17 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        
     </head>
     
     <body>
         <br>
         <br>
-        <br>
-        <!--Make the green box center-->
-        <div>
+         <!--Make the text center in green box-->    
+        <div style="margin-left:450px;margin-right:450px;">
 
         <!--Make the text center in green box-->
-        <div style="background-color:  #ccffe6;  width:35%; text-align:center;">    
+        <div style="background-color:  #ccffe6;  width:100%; text-align:center;">    
     
         <br/>
         
@@ -118,6 +118,5 @@
         
         </div>
         </div>
-        
     </body>
 </html>
