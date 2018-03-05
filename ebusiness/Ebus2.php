@@ -11,7 +11,6 @@ session_start();
         <!--Embeded CSS-->
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
@@ -24,7 +23,7 @@ session_start();
         <div style="margin-left:450px;margin-right:450px;">
             
         <!--Make the text center in green box-->    
-        <div align="center" style="background-color:  #ccffe6; width:100%; text-align:center;">
+        <div style="background-color:  #ccffe6; width:100%; text-align:center;">
             
         <br/>
         
@@ -66,7 +65,7 @@ session_start();
 
     </div>
         <!--Use java script-->
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script src="ebus2_validator.js"></script>
 
      <?php
         //Set session variables
