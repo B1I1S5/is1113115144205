@@ -15,10 +15,11 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
     </head>
-    
-    <br/><br/><br/>
+
     
     <body>
+        
+        <br/><br/><br/>
         
          <!--Make the text center in green box-->    
         <div style="margin-left:450px;margin-right:450px;">
