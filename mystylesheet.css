@@ -1,9 +1,10 @@
 /* Adding image in background */
 body {
     background-image: url(https://narrativescience.com/Portals/0/EasyDNNnews/1770/whatisartificialintelligencethumbnail.jpg);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size:cover;
 }
+
 
 /* Style the navbar */
 .navbar {

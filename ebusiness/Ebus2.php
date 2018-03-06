@@ -42,7 +42,7 @@ session_start();
             
             <!--Create a lable and a text box-->
             <label for="email" style=" font-family: Georgia; font-size: 25px;">Email :</label>&nbsp;&nbsp;
-            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" name="email" placeholder="Email">
+            <input style=" font-family: Georgia; font-size: 22px;" type="text" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
               
             <br/><br/> 
             
